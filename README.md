@@ -31,6 +31,3 @@ This project demonstrates real-time face detection using the OpenCV (cv2) librar
 
 3.Deploy on mobile or IoT devices for surveillance applications.
 
-Implement facial recognition using LBPH, DNNs, or deep learning models.
-
-Deploy on mobile or IoT devices for surveillance applications.
