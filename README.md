@@ -1,38 +1,39 @@
-# Real_Time_Face_Detection
+# Real-Time Face Detection
 
-📌 Overview:
+A Python script that performs real-time face detection using OpenCV's Haar Cascade classifier and your webcam feed.
 
-This project demonstrates real-time face detection using the OpenCV (cv2) library and Haar Cascade Classifier. It captures video input through a webcam (or any connected camera) and applies pre-trained classifiers to detect human faces within live video frames. The detected faces are highlighted with bounding boxes, making it an effective example of computer vision in action.
+## Features
 
-🚀 Features:
+- Live webcam video capture
+- Grayscale conversion for faster processing
+- Face detection using Haar Cascade (`haarcascade_frontalface_default.xml`)
+- Bounding boxes drawn around detected faces in real time
+- Press `A` to exit the live feed
 
-1.Real-time face detection from a webcam feed.
+## Requirements
 
-2.Utilizes Haar Cascade Frontal Face Classifier for high accuracy.
+- Python 3.x
+- OpenCV (`opencv-python`)
 
-3.Lightweight and easy-to-implement Python solution.
+Install dependencies:
+```bash
+pip install opencv-python
+```
 
-4.Can be extended for facial recognition or emotion detection projects.
+## Usage
 
-🛠️ Technologies Used:
+```bash
+git clone https://github.com/AhadAhmad0/Real_Time_Face_Detection.git
+cd Real_Time_Face_Detection
+python Face_detection.py
+```
 
-1.Python 3.x
-2.OpenCV (cv2) library
-3.Haar Cascade Classifier (haarcascade_frontalface_default.xml)
+Make sure `haarcascade_frontalface_default.xml` is in the same directory as the script.
 
-🎯 Usage:
+## How It Works
 
-1.The program will start the webcam and detect faces in real time.
+The webcam feed is converted to grayscale, then passed to OpenCV's pretrained Haar Cascade classifier, which scans for face-like patterns and returns bounding box coordinates for each detected face.
 
-2.Faces are displayed with bounding boxes for easy visualization.
+## Author
 
-3.Press 'a' to exit the application.
-
-📌 Future Enhancements:
-
-1.Add smile or eye detection.
-
-2.Implement facial recognition using LBPH, DNNs, or deep learning models.
-
-3.Deploy on mobile or IoT devices for surveillance applications.
-
+**Ahad Ahmad** — [@AhadAhmad0](https://github.com/AhadAhmad0)
